@@ -39,6 +39,11 @@ Just wait it startup and then test use curl
 curl  http://127.0.0.1:18080/ -d '{"method": "market.list", "params": [], "id": 1516681174}'
 ```
 
+```bash
+curl http://127.0.0.1:18080/ -d '{"method": "order.put_limit", "params": [1,"DSHBCH",2,"100","1.5","0.0001","0.0001",""], "id": 1}'
+```
+
+
 All is done, just play it!
 
 
